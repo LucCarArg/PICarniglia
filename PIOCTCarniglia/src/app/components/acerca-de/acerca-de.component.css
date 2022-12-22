@@ -6,27 +6,43 @@ div {
     background-color: #a1b5cb;
 }
 
+/* .container {
+    display: flex;
+} */
+
+
 /* Estilo de la foto de perfil */
 
 @media (min-width: 576px) {
     #fotodeperfil {
         position: absolute;
         width: 15%;
-        border-radius: 50%;
+        border-radius: 30%;
         box-shadow: 3px 3px 3px gray;
         left: 2%;
         top: 600px;
     }
 }
 
+@media (max-width: 820px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 16%;
+        border-radius: 30%;
+        box-shadow: 3px 3px 3px grey;
+        left: 1%;
+        top: 400px;
+    }
+}
+
 @media (max-width: 575px) {
     #fotodeperfil {
         position: absolute;
-        width: 15%;
-        border-radius: 50%;
+        width: 30%;
+        border-radius: 30%;
         box-shadow: 3px 3px 3px gray;
-        left: 2%;
-        top: 400px;
+        left: 36%;
+        top: 256px;
     }
 }
 

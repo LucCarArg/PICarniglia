@@ -1,5 +1,65 @@
-div{
-    background-color: #a1b5cb;
+.row {
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+#logoAP{
+    width: 150px;
+}
+
+img{
+    width: 30px;
+    margin-right: 4px;
+}
+
+.redes {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 20px;
+}
+
+/* estilo para vista celular */
+
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    #logoAP{
+        width: 130px;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
+        width: 20px;
+        margin-right: 4px;
+    }
+}
+
+
+/* div{
+    background-color: #563d7c;
 }
 
 app-social{
@@ -8,3 +68,6 @@ app-social{
     margin-right: 25px;
 }
 
+.logo {
+    width: 1%;
+} */
